@@ -31,3 +31,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+###设置项目中不需要提交的文件
+.idea/
+.mvn/
+target/
+mvnw
+mvnw.cmd
+
