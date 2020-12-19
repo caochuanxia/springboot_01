@@ -58,4 +58,14 @@ public class Emp implements Serializable {
     public void setHiredate(String hiredate) {
         this.hiredate = hiredate;
     }
+
+    @Override
+    public String toString() {
+        return "Emp{" +
+                "empno=" + empno +
+                ", ename='" + ename + '\'' +
+                ", salary=" + salary +
+                ", hiredate='" + hiredate + '\'' +
+                '}';
+    }
 }
