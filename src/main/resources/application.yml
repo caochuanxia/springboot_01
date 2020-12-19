@@ -1,0 +1,23 @@
+#修改服务器端口号
+server:
+  port: 8088
+#整合Mybatis
+#别名定义
+mybatis:
+  type-aliases-package: com.itgaoshu.bean
+  mapper-locations: classpath:mapper/*Mapper.xml
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/test_db?serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+  #整合Thymeleaf
+  thymeleaf:
+    cache: false
+    mode: HTML
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
