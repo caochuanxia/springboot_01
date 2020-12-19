@@ -7,5 +7,5 @@ package com.itgaoshu.bean;
  * @date 2020/12/19 0019 12:00
  */
 public class User {
-
+    private String username;
 }
